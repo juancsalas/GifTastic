@@ -1,0 +1,30 @@
+body {
+    background: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#gifBackground {
+    background: rgba(245, 245, 245, 0.5);
+    text-align: center;
+    margin-top: 25px;
+}
+
+#wrestlersDiv {
+    text-align: center;
+}
+
+.gif {
+    margin-top: 30px;
+}
+
+#wrestlerForm {
+    text-align: right;
+    padding-top: 30px;
+}
+
+
+
+
+
