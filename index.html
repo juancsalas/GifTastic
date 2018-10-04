@@ -18,20 +18,28 @@
 
     <div class="container">
         <div class="row my-4">
-            <h1 class="col-12 col-lg-6 text-white display-4 mb-4">Wrestling Federation</h1>
-        
+            <h1 id="title" class="col-12 col-lg-8 display-3 text-black-70 mb-4 pt-4">Wrestling Federation</h1>
+        </div>
 
-            <form id="wrestlerForm" class="col-12 col-lg-6">
-                <label for="wrestlersInput" class="text-white">Add a Wrestler</label>
+        <div class="row">
+            <div id="wrestlersDiv" class="col-12 col-lg-8"></div>
+
+            <div class="col-12 col-lg-1">
+                <!-- Empty div -->
+            </div>
+
+            <form id="wrestlerForm" class="col-12 col-lg-3">
+                <label for="wrestlersInput" class="text-black-70">Add a Wrestler</label>
                 <input type="text" id="wrestlersInput">
                 <input id="addWrestler" class="btn btn-warning" type="submit" value="Submit">
-                    
-                </form>
+            </form>
 
-        <div id="wrestlersDiv"></div>
+        </div>
 
-        <div id="gifBackground">
-            <div id="gifsDiv" class="row"></div>
+        <div class="row">
+            <div id="gifBackground">
+                <div id="gifsDiv" class="row"></div>
+            </div>
         </div>
    
     </div>
